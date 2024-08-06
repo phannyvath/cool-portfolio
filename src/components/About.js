@@ -80,9 +80,15 @@ const About = () => {
               </div>
             </div>
             <div className=" flex gap-x-8 items-center">
-              <button className=" btn btn-lg">Contact me</button>
-              <a href="#" className=" text-gradient btn-link">
-                My Portfolio
+              <button className=" btn btn-lg">
+                <a href="#contact">Contact Me</a>
+              </button>
+              <a
+                href="/CV.pdf"
+                download="CV.pdf"
+                className=" text-gradient btn-link"
+              >
+                My CV
               </a>
             </div>
           </div>

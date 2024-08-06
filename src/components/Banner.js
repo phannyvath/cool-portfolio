@@ -61,20 +61,32 @@ const Banner = () => {
               through creativity and continuous learning.
             </p>
             <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
+              <button className="btn btn-lg">
+                <a href="#contact">Contact Me</a>
+              </button>
+              <a
+                href="/CV.pdf"
+                download="CV.pdf"
+                className="text-gradient btn-link"
+              >
+                My CV
               </a>
             </div>
             {/* Social */}
             <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/profile.php?id=100010225986147"
+                aria-label="Facebook"
+              >
                 <FaFacebook className=" hover:scale-150 hover:text-blue-600 h-10 w-10" />
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/im-phannyvath-a308a62a7/"
+                aria-label="LinkedIn"
+              >
                 <CiLinkedin className=" hover:scale-150 hover:text-yellow-300 h-10 w-10" />
               </a>
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/phannyvath" aria-label="GitHub">
                 <FaGithub className=" hover:scale-150 hover:text-gray-500 h-10 w-10" />
               </a>
             </div>
