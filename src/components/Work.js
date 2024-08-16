@@ -5,6 +5,7 @@ import Img1 from "../assets/project1.jpg";
 import Img2 from "../assets/project2.jpg";
 import Img3 from "../assets/project3.jpg";
 import Img4 from "../assets/project4.jpg";
+import Img5 from "../assets/project5.jpg";
 
 const projects = [
   {
@@ -30,6 +31,12 @@ const projects = [
     preTitle: "FrontEnd/Backend website",
     title: "Company Website",
     link: "https://ea-consultant.vercel.app/",
+  },
+  {
+    img: Img5,
+    preTitle: "Api Website",
+    title: "Country Information",
+    link: "https://country-vath.vercel.app/",
   },
 ];
 
