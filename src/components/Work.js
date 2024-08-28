@@ -6,6 +6,7 @@ import Img2 from "../assets/project2.jpg";
 import Img3 from "../assets/project3.jpg";
 import Img4 from "../assets/project4.jpg";
 import Img5 from "../assets/project5.jpg";
+import Img6 from "../assets/project6.jpg";
 
 const projects = [
   {
@@ -37,6 +38,12 @@ const projects = [
     preTitle: "Api Website",
     title: "Country Information",
     link: "https://country-vath.vercel.app/",
+  },
+  {
+    img: Img6,
+    preTitle: "Frontend Website",
+    title: "Gym Coder",
+    link: "https://vathgym.vercel.app/",
   },
 ];
 

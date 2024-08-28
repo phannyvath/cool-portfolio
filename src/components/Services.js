@@ -47,7 +47,12 @@ const Services = () => {
               I'm experience as a Front-end Developer and Back-end Developer,
               also Design .
             </h3>
-            <button className=" btn btn-sm">See my work</button>
+            <a
+              href="#work"
+              className="btn btn-sm flex justify-center items-center w-60"
+            >
+              See my work
+            </a>
           </motion.div>
           {/* Service */}
           <motion.div
